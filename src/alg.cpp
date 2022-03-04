@@ -9,7 +9,7 @@ double pown(double value, uint16_t n) {
     if (n == 0) {
         return 1;
     }
-    while (i!=1) {
+    while (i != 1) {
         c*=value;
         i--;
     }
